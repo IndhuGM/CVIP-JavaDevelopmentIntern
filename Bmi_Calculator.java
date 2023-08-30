@@ -12,12 +12,12 @@ public class Bmi_Calculator{
         System.out.println("your height="+height_in_meters); //print height
         System.out.println("BMI is:"+BMI); //print bmi
         if(BMI<18)
-        System.out.println("underweight");
+           System.out.println("underweight");
         else if(BMI<25)
-        System.out.println("normal");
+           System.out.println("normal");
         else if(BMI<30)
-        System.out.println("overweight");
+           System.out.println("overweight");
         else
-        System.out.println("obseity");
+           System.out.println("obseity");
     }
 }
